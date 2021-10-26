@@ -1,0 +1,7 @@
+EF_macro_mso1 <- readxl::read_xlsx(file.path("data", "macroscopic", "EF_macro_mso1.xlsx"))
+EF_macro_rmt <- readxl::read_xlsx(file.path("data", "macroscopic", "EF_macro_rmt.xlsx"))
+EF_macro_fxd <- readxl::read_xlsx(file.path("data", "macroscopic", "EF_macro_fxd.xlsx"))
+EF_macro_efield_opt <- readxl::read_xlsx(file.path("data", "macroscopic", "EF_macro_efield_opt.xlsx"))
+EF_macro_efield_opt_mso <- readxl::read_xlsx(file.path("data", "macroscopic", "EF_macro_efield_opt_mso.xlsx"))
+scalp_cortex_distance <- readxl::read_xlsx(file.path("data", "macroscopic", "scalp_cortex_distance.xlsx"), col_names = FALSE)
+EF_macro_mso1_max <- readxl::read_xlsx(file.path("data", "macroscopic", "EF_macro_mso1_max.xlsx"))
